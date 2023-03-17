@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1679010635647" clover="3.2.0">
-  <project timestamp="1679010635647" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="12" coveredelements="12" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+<coverage generated="1679011616740" clover="3.2.0">
+  <project timestamp="1679011616741" name="All files">
+    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="12" coveredelements="10" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/home/fhenriquez/UAI/MONITOREO Y MEJORA CONTINUA/clase 16-03-2023/taller/products/src/app.js">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <line num="5" count="2" type="stmt"/>
       <line num="6" count="2" type="stmt"/>
       <line num="8" count="2" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
       <line num="14" count="2" type="stmt"/>
       <line num="15" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
