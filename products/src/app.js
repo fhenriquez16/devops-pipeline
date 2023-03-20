@@ -8,19 +8,19 @@ app.use(bodyParser.json())
 const products = {}
 
 app.get('/products', (req, res) =>{
-    res.send(products)
+	res.send(products)
 })
 
 app.post('/products', (req, res) =>{
-    const id = randomBytes(4).toString('hex')
+	const id = randomBytes(4).toString('hex')
 
-    const { name } = req.body
-    products[id] = {
-        id,
-        name
-    }
+	const { name } = req.body
+	products[id] = {
+		id,
+		name
+	}
 
-    res.status(201).send(products[id])
+	res.status(201).send(products[id])
 })
 
 export default app 
