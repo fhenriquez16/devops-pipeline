@@ -1,6 +1,6 @@
 FROM node:18-alpine3.16
 
-COPY ./products .
+COPY . .
 
 
 RUN npm i
